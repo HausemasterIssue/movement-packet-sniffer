@@ -1,0 +1,16 @@
+{
+  "required": true,
+  "priority": 2147483647,
+  "mixinPriority": 2147483647,
+  "minVersion": "0.7-SNAPSHOT",
+  "compatibilityLevel": "JAVA_8",
+  "package": "cope.sniffer.asm.mixins",
+  "refmap": "mixins.sniffer.refmap.json",
+  "verbose": true,
+  "mixins": [
+    "MixinNetworkManager"
+  ],
+  "injectors": {
+    "maxShiftBy": 10
+  }
+}
